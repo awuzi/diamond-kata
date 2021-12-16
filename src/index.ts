@@ -11,10 +11,10 @@ export type Diamond = Row[];
 export type TopHalfDiamond = Row[];
 
 export const print = (diamond: Diamond): string => {
-  return diamond.map(printRow).join('\n');
-}
+  return diamond.map(printRow).join("\n");
+};
 
-export const printRow = (row: Row) => row.join('');
+export const printRow = (row: Row) => row.join("");
 
 export const diamond = (dimension: number): Diamond => {
   const top = makeTopHalfDiamond(dimension);

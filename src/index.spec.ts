@@ -66,7 +66,6 @@ describe("Test of diamond() function", () => {
   });
 });
 
-
 describe("Test of print() function", () => {
   test("Dimension 1", () => {
     const diamond1 = diamond(1);
